@@ -1,10 +1,10 @@
-const Card = () => {
+const Card = ({title, description}) => {
     return(
         <div className="card">
             <div className="card-body">
-                <div className="card-title">titolo del linguaggio</div>
+                <div className="card-title">{title}</div>
                     <p className="card-text">
-                        Descrizione linguaggio
+                        {description}
                     </p>
                 
             </div>
